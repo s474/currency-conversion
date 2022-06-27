@@ -1,0 +1,19 @@
+{
+    "name": "root/slim_app",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Simon Adams",
+            "email": "sjadams@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.10",
+        "laminas/laminas-diactoros": "^2.11",
+        "guzzlehttp/guzzle": "^7.4"
+    }
+}
