@@ -27,8 +27,9 @@ replace XXXXXXX with an API key for https://www.exchangerate-api.com/
 A GET Request to http://localhost:8080 returns the EUR rates.
 
 
+
 Notes
 
 Using php-fpm and nginx rather than Apache to improve performance.
 
-Intending to slimphp/Slim-HttpCache, Redis/Memcached
+Intending to use slimphp/Slim-HttpCache, Redis/Memcached
