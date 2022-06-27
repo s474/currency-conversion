@@ -24,4 +24,11 @@ Then on line 13 public/index.php
 
 replace XXXXXXX with an API key for https://www.exchangerate-api.com/
 
-Then visit http://localhost:8080 and you should see the EUR rates.
+A GET Request to http://localhost:8080 returns the EUR rates.
+
+
+Notes
+
+Using php-fpm and nginx rather than Apache to improve performance.
+
+Intending to slimphp/Slim-HttpCache, Redis/Memcached
