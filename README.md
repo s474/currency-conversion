@@ -2,7 +2,7 @@
 
 Due to time limitation this is very much just a start.
 
-It does download the exchange rates for EUR currency (from https://www.exchangerate-api.com/) and send a JSON response.
+It does download the exchange rates for EUR currency and serve a JSON response.
 
 
 To install - clone this repo or download zip, then from project root folder...
